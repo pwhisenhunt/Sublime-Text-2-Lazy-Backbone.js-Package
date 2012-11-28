@@ -1,0 +1,37 @@
+<snippet>
+    <content>
+<![CDATA[
+${2:variable} = Backbone.Model.extend(/** @lends ${3:objectcreated}.prototype */{
+    /**
+     * @class ${3:objectcreated}
+     *
+     * @author ${4:author}
+     * @augments Backbone.Model
+     * @requires jQuery
+     * @requires Backbone.js
+     * @requires Underscore.js
+     * @contructs ${3:objectcreated} object
+     */
+     
+    defaults: {
+    },
+
+    validate: function(attributes) {
+
+        // if(attributes.end < attributes.start) {
+        //    return 'Error!';
+        // }
+    },
+
+    initialize: function() {
+    },
+
+//    url: '',
+//    urlRoot: ''
+});
+]]>
+    </content>
+    <tabTrigger>bmjdsoc</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Model with JSDocs</description>
+</snippet>

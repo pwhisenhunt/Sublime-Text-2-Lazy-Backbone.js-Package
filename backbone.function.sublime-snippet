@@ -1,0 +1,13 @@
+<snippet>
+    <content>
+<![CDATA[
+    // ${1:description}
+    ${2:function name}: function(${3:params}) {        
+        return ${4:return variable};
+    },
+]]>
+    </content>
+    <tabTrigger>bfunc</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Function Declaration</description>
+</snippet>

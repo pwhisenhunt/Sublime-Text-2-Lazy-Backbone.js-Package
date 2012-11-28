@@ -1,0 +1,17 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.fetch({
+    success: function(model, response, options) {
+        ${2:success}
+    },
+    error: function(model, xhr, options) {
+        ${3:error}    
+    }
+});
+]]>
+    </content>
+    <tabTrigger>bmfetch</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Model Fetch</description>
+</snippet>

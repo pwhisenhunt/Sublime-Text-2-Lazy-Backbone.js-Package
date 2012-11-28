@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+Backbone.history.navigate('${1:fragment}', {${2:options}});
+]]>
+    </content>
+    <tabTrigger>bhnavigate</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js View Delegate Events</description>
+</snippet>

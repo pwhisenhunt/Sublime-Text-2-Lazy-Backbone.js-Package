@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:router}.route('${2:route}', '${3:name}', ${4:callback});
+]]>
+    </content>
+    <tabTrigger>brroute</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Router Route</description>
+</snippet>

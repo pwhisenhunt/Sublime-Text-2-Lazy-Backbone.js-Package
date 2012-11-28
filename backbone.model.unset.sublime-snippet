@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.unset('${2:attribute}', ${3:options});
+]]>
+    </content>
+    <tabTrigger>bmunset</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Model Unset Attribute</description>
+</snippet>

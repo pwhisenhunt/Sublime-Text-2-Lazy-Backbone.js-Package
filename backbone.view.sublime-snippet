@@ -1,0 +1,35 @@
+<snippet>
+    <content>
+<![CDATA[
+// ${1:description}
+${2:variable} = Backbone.View.extend({
+
+    el: \$('${3:domelement}'),
+
+    template: ${4:template},
+
+    events: {
+    },
+
+    initialize: function() {
+        _.bind('this', this.render);
+
+        this.${5:collection or model}.on('change', this.render, this);
+        // Override what you wish to do with an error!
+        this.${5:collection or model}.on('error', function(error) {
+            alert('Error found: ' + error);
+        });
+
+        this.render();
+    },
+
+    render: function() {
+        return this;
+    }
+});
+]]>
+    </content>
+    <tabTrigger>bv</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js View</description>
+</snippet>

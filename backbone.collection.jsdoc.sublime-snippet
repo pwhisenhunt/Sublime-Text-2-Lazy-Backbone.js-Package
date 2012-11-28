@@ -1,0 +1,28 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:variable} = Backbone.Collection.extend(/** @lends ${2:objectcreated}.prototype */{
+    /**
+     * @class ${2:objectcreated}
+     *
+     * @author ${3:author}
+     * @augments Backbone.Collection
+     * @requires jQuery
+     * @requires Backbone.js
+     * @requires Underscore.js
+     * @contructs ${2:objectcreated} object
+     */
+     
+    initialize: function(models, options) {
+    },
+
+    model: ${4:nameofmodel},
+
+    url: '${5:urltohit}'
+});
+]]>
+    </content>
+    <tabTrigger>bcjsdoc</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Collection with JSDocs</description>
+</snippet>

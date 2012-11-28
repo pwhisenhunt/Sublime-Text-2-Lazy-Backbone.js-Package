@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.add([${2:models}], {${3:options}});
+]]>
+    </content>
+    <tabTrigger>bcadd</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Collection Add</description>
+</snippet>

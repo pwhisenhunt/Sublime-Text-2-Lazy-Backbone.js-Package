@@ -1,0 +1,17 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.fetch({
+    success: function(collection, response, options) {
+        ${2:success}
+    },
+    error: function(collection, xhr, options) {
+        ${3:error}    
+    }
+});
+]]>
+    </content>
+    <tabTrigger>bcfetch</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Collection Fetch</description>
+</snippet>

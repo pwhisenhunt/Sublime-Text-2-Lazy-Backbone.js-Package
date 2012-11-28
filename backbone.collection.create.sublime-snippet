@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.create({${2:model attributes}}, {${3:options}});
+]]>
+    </content>
+    <tabTrigger>bccreate</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Collection Create Model</description>
+</snippet>

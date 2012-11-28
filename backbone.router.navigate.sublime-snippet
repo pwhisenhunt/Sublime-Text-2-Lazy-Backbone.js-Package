@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:router}.navigate('${2:fragment}', {${3:options}});
+]]>
+    </content>
+    <tabTrigger>brnavigate</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Router Navigate</description>
+</snippet>

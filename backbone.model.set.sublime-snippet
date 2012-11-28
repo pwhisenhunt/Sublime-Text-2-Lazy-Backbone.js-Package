@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.set('${2:key}', ${3:value});
+]]>
+    </content>
+    <tabTrigger>bmset</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Model Set Single Attribute</description>
+</snippet>

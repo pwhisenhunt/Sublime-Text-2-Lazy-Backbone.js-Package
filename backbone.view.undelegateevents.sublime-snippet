@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:scope}.undelegateEvents();
+]]>
+    </content>
+    <tabTrigger>bvundevents</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js View Delegate Events</description>
+</snippet>

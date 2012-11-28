@@ -1,0 +1,49 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:variable} = Backbone.View.extend(/** @lends ${2:objectcreated}.prototype */{
+    /**
+     * @class ${2:objectcreated}
+     *
+     * @author ${4:author}
+     * @augments Backbone.View
+     * @requires jQuery
+     * @requires Backbone.js
+     * @requires Underscore.js
+     * @contructs ${2:objectcreated} object
+     */
+     
+    el: \$('${3:domelement}'),
+
+    template: ${4:template},
+
+    events: {
+    },
+
+    initialize: function() {
+        _.bind('this', this.render);
+
+        this.${5:collection or model}.on('change', this.render, this);
+        // Override what you wish to do with an error!
+        this.${5:collection or model}.on('error', function(error) {
+            alert('Error found: ' + error);
+        });
+    },
+
+    serialize: function() {
+        // replace this with whatever data your template needs!
+        // return this.model.toJSON();
+    }
+
+    beforeRender: function() {
+    },
+
+    afterRender: function() {
+    }
+});
+]]>
+    </content>
+    <tabTrigger>blvjsdoc</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Layout Manager View with JSDocs</description>
+</snippet>

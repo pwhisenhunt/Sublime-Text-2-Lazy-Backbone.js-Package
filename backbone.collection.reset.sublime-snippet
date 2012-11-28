@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.reset([${2:models}], {${3:options}});
+]]>
+    </content>
+    <tabTrigger>bcreset</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Collection Reset</description>
+</snippet>

@@ -1,0 +1,40 @@
+<snippet>
+    <content>
+<![CDATA[
+// ${1:description}
+${2:variable} = Backbone.View.extend({
+
+    el: \$('${3:domelement}'),
+
+    template: ${4:template},
+
+    events: {
+    },
+
+    initialize: function() {
+        _.bind('this', this.render);
+
+        this.${5:collection or model}.on('change', this.render, this);
+        // Override what you wish to do with an error!
+        this.${5:collection or model}.on('error', function(error) {
+            alert('Error found: ' + error);
+        });
+    },
+
+    serialize: function() {
+        // replace this with whatever data your template needs!
+        // return this.model.toJSON();
+    }
+
+    beforeRender: function() {
+    },
+
+    afterRender: function() {
+    }
+});
+]]>
+    </content>
+    <tabTrigger>blv</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Layout Manager View</description>
+</snippet>

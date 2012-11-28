@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.destroy({${2:options}});
+]]>
+    </content>
+    <tabTrigger>bmdestroy</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Model Destroy</description>
+</snippet>

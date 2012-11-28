@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.save({${2:attributes}}, ${3:options});
+]]>
+    </content>
+    <tabTrigger>bmsave</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Model Save</description>
+</snippet>

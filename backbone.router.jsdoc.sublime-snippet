@@ -1,0 +1,28 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:variable} = Backbone.Router.extend(/** @lends ${2:objectcreated}.prototype */{
+    /**
+     * @class ${2:objectcreated}
+     *
+     * @author ${4:author}
+     * @augments Backbone.Router
+     * @requires jQuery
+     * @requires Backbone.js
+     * @requires Underscore.js
+     * @contructs ${2:objectcreated} object
+     */
+     
+    routes: {
+        '${3:event} ${4:selector}': '${5:function}'
+    },
+
+    initialize: function(options) {
+    }
+});
+]]>
+    </content>
+    <tabTrigger>brjsdoc</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Router with JSDocs</description>
+</snippet>

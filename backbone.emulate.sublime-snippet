@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+Backbone.emulate${1:HTTP or JSON} = ${2:true or false};
+]]>
+    </content>
+    <tabTrigger>bemulate</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js Emulate HTTP</description>
+</snippet>
