@@ -1,6 +1,4 @@
-----
 # Lazy [Backbone.js](http://backbonejs.org) Sublime Text 2 snippets for tab completion.
-----
 
 Created by Phillip Whisenhunt.
 
@@ -299,6 +297,17 @@ blvjsdoc -
 
 ###Router
 
+    br          -
+    // ${1:description}
+    ${2:variable} = Backbone.Router.extend({
+
+        routes: {
+            '${3:event} ${4:selector}': '${5:function}'
+        },
+
+        initialize: function(options) {
+        }
+    });
     brnavigate  - ${1:router}.navigate('${2:fragment}', {${3:options}});
     brnewroute  - '${1:event} ${2:selector}': '${3:function}'
     brroute     - ${1:router}.route('${2:route}', '${3:name}', ${4:callback});
