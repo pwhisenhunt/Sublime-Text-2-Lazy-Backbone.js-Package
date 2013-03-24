@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.length
+]]>
+    </content>
+    <tabTrigger>bclength</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection length</description>
+</snippet>

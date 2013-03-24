@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.url()
+]]>
+    </content>
+    <tabTrigger>bmurl</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model url</description>
+</snippet>

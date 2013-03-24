@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+new Collection(${1:[models]}, ${2:[options]})
+]]>
+    </content>
+    <tabTrigger>bcconstructor</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection constructor</description>
+</snippet>

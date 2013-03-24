@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:view}.el
+]]>
+    </content>
+    <tabTrigger>bvel</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js view el</description>
+</snippet>

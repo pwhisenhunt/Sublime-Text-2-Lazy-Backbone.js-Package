@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.get(${2:attribute})
+]]>
+    </content>
+    <tabTrigger>bmget</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model get</description>
+</snippet>

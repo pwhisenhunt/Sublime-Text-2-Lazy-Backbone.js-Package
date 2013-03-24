@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.findWhere(${2:attributes})
+]]>
+    </content>
+    <tabTrigger>bcfindWhere</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection findWhere</description>
+</snippet>

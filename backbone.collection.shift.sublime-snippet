@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.shift(${2:[options]})
+]]>
+    </content>
+    <tabTrigger>bcshift</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection shift</description>
+</snippet>

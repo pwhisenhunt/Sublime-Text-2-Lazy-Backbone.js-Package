@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.isValid
+]]>
+    </content>
+    <tabTrigger>bmisValid</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model isValid</description>
+</snippet>

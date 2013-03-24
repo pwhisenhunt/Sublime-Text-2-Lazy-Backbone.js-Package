@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+new View(${1:[options]})
+]]>
+    </content>
+    <tabTrigger>bvconstructor</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js view constructor</description>
+</snippet>

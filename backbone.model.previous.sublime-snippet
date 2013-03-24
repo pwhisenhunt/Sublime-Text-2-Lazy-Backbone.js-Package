@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.previous(${2:attribute})
+]]>
+    </content>
+    <tabTrigger>bmprevious</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model previous</description>
+</snippet>

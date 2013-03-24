@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.clone()
+]]>
+    </content>
+    <tabTrigger>bmclone</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model clone</description>
+</snippet>

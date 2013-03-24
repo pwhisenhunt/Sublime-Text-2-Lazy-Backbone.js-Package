@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:object}.off(${2:[event]}, ${3:[callback]}, ${4:[context]})
+]]>
+    </content>
+    <tabTrigger>beoff</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js events off</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+Backbone.View.extend(${1:properties}, ${2:[classProperties]})
+]]>
+    </content>
+    <tabTrigger>bvextend</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js view extend</description>
+</snippet>

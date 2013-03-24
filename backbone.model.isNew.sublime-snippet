@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.isNew()
+]]>
+    </content>
+    <tabTrigger>bmisNew</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model isNew</description>
+</snippet>

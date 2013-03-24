@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.url or collection.url()
+]]>
+    </content>
+    <tabTrigger>bcurl</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection url</description>
+</snippet>

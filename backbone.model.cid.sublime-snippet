@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.cid
+]]>
+    </content>
+    <tabTrigger>bmcid</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model cid</description>
+</snippet>

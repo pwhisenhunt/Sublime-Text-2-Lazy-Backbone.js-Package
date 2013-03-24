@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:object}.trigger(${2:event}, ${3:[*args]})
+]]>
+    </content>
+    <tabTrigger>betrigger</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js events trigger</description>
+</snippet>

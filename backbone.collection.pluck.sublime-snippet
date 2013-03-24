@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.pluck(${2:attribute})
+]]>
+    </content>
+    <tabTrigger>bcpluck</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection pluck</description>
+</snippet>

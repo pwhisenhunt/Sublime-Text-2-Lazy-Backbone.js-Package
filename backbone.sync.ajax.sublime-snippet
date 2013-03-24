@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+Backbone.ajax = function(${1:request { ... };})
+]]>
+    </content>
+    <tabTrigger>bsajax</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js sync ajax</description>
+</snippet>

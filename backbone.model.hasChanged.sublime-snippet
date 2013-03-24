@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.hasChanged(${2:[attribute]})
+]]>
+    </content>
+    <tabTrigger>bmhasChanged</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model hasChanged</description>
+</snippet>

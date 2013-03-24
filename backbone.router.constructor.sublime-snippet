@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+new Router(${1:[options]})
+]]>
+    </content>
+    <tabTrigger>brconstructor</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js router constructor</description>
+</snippet>

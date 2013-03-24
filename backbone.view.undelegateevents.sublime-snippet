@@ -1,10 +1,10 @@
 <snippet>
     <content>
 <![CDATA[
-${1:scope}.undelegateEvents();
+undelegateEvents()
 ]]>
     </content>
-    <tabTrigger>bvundevents</tabTrigger>
+    <tabTrigger>bvundelegateEvents</tabTrigger>
     <scope>source.js</scope>
-    <description>Backbone.js View Delegate Events</description>
+    <description>Backbone.js view undelegateEvents</description>
 </snippet>

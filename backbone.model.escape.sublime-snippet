@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.escape(${2:attribute})
+]]>
+    </content>
+    <tabTrigger>bmescape</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model escape</description>
+</snippet>

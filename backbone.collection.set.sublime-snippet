@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.set(${2:models}, ${3:[options]})
+]]>
+    </content>
+    <tabTrigger>bcset</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection set</description>
+</snippet>

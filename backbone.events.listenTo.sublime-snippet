@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:object}.listenTo(${2:other}, ${3:event}, ${4:callback})
+]]>
+    </content>
+    <tabTrigger>belistenTo</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js events listenTo</description>
+</snippet>

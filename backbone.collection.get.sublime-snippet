@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.get(${2:id})
+]]>
+    </content>
+    <tabTrigger>bcget</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection get</description>
+</snippet>

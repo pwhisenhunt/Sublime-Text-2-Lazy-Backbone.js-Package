@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:view}.remove()
+]]>
+    </content>
+    <tabTrigger>bvremove</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js view remove</description>
+</snippet>

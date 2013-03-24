@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.at(${2:index})
+]]>
+    </content>
+    <tabTrigger>bcat</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection at</description>
+</snippet>

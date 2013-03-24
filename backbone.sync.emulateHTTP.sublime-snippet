@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+Backbone.emulateHTTP = true
+]]>
+    </content>
+    <tabTrigger>bsemulateHTTP</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js sync emulateHTTP</description>
+</snippet>

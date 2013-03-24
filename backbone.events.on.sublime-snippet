@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+object.on(${1:event}, ${2:callback}, ${3:[context]})
+]]>
+    </content>
+    <tabTrigger>beon</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js events on</description>
+</snippet>

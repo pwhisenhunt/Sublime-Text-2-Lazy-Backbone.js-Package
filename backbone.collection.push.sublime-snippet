@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.push(${2:model}, ${3:[options]})
+]]>
+    </content>
+    <tabTrigger>bcpush</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection push</description>
+</snippet>

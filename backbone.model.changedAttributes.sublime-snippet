@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.changedAttributes(${2:[attributes]})
+]]>
+    </content>
+    <tabTrigger>bmchangedAttributes</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model changedAttributes</description>
+</snippet>

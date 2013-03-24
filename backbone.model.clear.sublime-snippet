@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.clear(${2:[options]})
+]]>
+    </content>
+    <tabTrigger>bmclear</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model clear</description>
+</snippet>

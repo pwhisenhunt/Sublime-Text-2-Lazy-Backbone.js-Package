@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.has(${2:attribute})
+]]>
+    </content>
+    <tabTrigger>bmhas</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model has</description>
+</snippet>

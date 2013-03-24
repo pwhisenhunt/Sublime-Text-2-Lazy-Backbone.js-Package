@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.clone()
+]]>
+    </content>
+    <tabTrigger>bcclone</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection clone</description>
+</snippet>

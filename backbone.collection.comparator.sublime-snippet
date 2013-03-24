@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.comparator
+]]>
+    </content>
+    <tabTrigger>bccomparator</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection comparator</description>
+</snippet>

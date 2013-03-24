@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.validationError
+]]>
+    </content>
+    <tabTrigger>bmvalidationError</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model validationError</description>
+</snippet>

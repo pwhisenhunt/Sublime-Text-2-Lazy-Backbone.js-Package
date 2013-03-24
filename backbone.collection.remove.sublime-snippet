@@ -1,10 +1,10 @@
 <snippet>
     <content>
 <![CDATA[
-${1:collection}.remove([${2:models}], {${3:options}});
+${1:collection}.remove(${2:models}, ${3:[options]})
 ]]>
     </content>
     <tabTrigger>bcremove</tabTrigger>
     <scope>source.js</scope>
-    <description>Backbone.js Collection Remove</description>
+    <description>Backbone.js collection remove</description>
 </snippet>

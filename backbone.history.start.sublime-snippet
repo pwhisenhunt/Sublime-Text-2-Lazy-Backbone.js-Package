@@ -1,10 +1,10 @@
 <snippet>
     <content>
 <![CDATA[
-Backbone.history.start({${1:options}});
+Backbone.${1:history}.start(${2:[options]})
 ]]>
     </content>
     <tabTrigger>bhstart</tabTrigger>
     <scope>source.js</scope>
-    <description>Backbone.js History Start</description>
+    <description>Backbone.js history start</description>
 </snippet>

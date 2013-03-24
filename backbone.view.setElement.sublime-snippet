@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:view}.setElement(${2:element})
+]]>
+    </content>
+    <tabTrigger>bvsetElement</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js view setElement</description>
+</snippet>

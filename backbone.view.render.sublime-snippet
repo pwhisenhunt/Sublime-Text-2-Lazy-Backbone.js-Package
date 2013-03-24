@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:view}.render()
+]]>
+    </content>
+    <tabTrigger>bvrender</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js view render</description>
+</snippet>

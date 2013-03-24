@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:view}.$(${2:selector})
+]]>
+    </content>
+    <tabTrigger>bv$ (jQuery)</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js view $ (jQuery)</description>
+</snippet>

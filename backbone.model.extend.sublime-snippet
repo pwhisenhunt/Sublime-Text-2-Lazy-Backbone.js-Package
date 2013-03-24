@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+Backbone.Model.extend(${1:properties}, ${2:[classProperties]})
+]]>
+    </content>
+    <tabTrigger>bmextend</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model extend</description>
+</snippet>

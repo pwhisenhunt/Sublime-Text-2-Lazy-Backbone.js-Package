@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.toJSON()
+]]>
+    </content>
+    <tabTrigger>bmtoJSON</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model toJSON</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.pop(${2:[options]})
+]]>
+    </content>
+    <tabTrigger>bcpop</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection pop</description>
+</snippet>

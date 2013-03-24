@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.sort(${2:[options]})
+]]>
+    </content>
+    <tabTrigger>bcsort</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection sort</description>
+</snippet>

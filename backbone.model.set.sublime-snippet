@@ -1,10 +1,10 @@
 <snippet>
     <content>
 <![CDATA[
-${1:model}.set('${2:key}', ${3:value});
+${1:model}.set(${2:attributes}, ${3:[options]})
 ]]>
     </content>
     <tabTrigger>bmset</tabTrigger>
     <scope>source.js</scope>
-    <description>Backbone.js Model Set Single Attribute</description>
+    <description>Backbone.js model set</description>
 </snippet>

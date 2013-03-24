@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.unshift(${2:model}, ${3:[options]})
+]]>
+    </content>
+    <tabTrigger>bcunshift</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection unshift</description>
+</snippet>

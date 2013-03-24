@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+var backbone = Backbone.noConflict(${1:;})
+]]>
+    </content>
+    <tabTrigger>buBackbone.noConflict</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js utility Backbone.noConflict</description>
+</snippet>

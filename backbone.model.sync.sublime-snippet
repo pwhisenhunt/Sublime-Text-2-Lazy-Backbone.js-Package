@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.sync(${2:method}, ${3:model}, ${4:[options]})
+]]>
+    </content>
+    <tabTrigger>bmsync</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model sync</description>
+</snippet>

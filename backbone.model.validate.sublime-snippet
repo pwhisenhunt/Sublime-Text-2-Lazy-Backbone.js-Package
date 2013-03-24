@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.validate(${2:attributes}, ${3:options})
+]]>
+    </content>
+    <tabTrigger>bmvalidate</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model validate</description>
+</snippet>

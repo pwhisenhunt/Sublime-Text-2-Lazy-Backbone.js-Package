@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.parse(${2:response}, ${3:options})
+]]>
+    </content>
+    <tabTrigger>bmparse</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model parse</description>
+</snippet>

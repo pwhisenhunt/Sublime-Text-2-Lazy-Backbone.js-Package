@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+Backbone.$ = $;
+]]>
+    </content>
+    <tabTrigger>buBackbone.$</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js utility Backbone.$</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.where(${2:attributes})
+]]>
+    </content>
+    <tabTrigger>bcwhere</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection where</description>
+</snippet>

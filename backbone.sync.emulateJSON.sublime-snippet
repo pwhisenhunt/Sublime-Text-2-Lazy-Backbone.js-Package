@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+Backbone.emulateJSON = true
+]]>
+    </content>
+    <tabTrigger>bsemulateJSON</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js sync emulateJSON</description>
+</snippet>

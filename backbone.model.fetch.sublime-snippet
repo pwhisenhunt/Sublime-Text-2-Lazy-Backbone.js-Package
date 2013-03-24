@@ -1,17 +1,10 @@
 <snippet>
     <content>
 <![CDATA[
-${1:model}.fetch({
-    success: function(model, response, options) {
-        ${2:success}
-    },
-    error: function(model, xhr, options) {
-        ${3:error}    
-    }
-});
+${1:model}.fetch(${2:[options]})
 ]]>
     </content>
     <tabTrigger>bmfetch</tabTrigger>
     <scope>source.js</scope>
-    <description>Backbone.js Model Fetch</description>
+    <description>Backbone.js model fetch</description>
 </snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.attributes
+]]>
+    </content>
+    <tabTrigger>bmattributes</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model attributes</description>
+</snippet>

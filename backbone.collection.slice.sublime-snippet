@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:collection}.slice(${2:begin}, ${3:end})
+]]>
+    </content>
+    <tabTrigger>bcslice</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js collection slice</description>
+</snippet>

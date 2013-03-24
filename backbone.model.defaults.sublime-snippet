@@ -1,0 +1,10 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:model}.defaults or model.defaults()
+]]>
+    </content>
+    <tabTrigger>bmdefaults</tabTrigger>
+    <scope>source.js</scope>
+    <description>Backbone.js model defaults</description>
+</snippet>
