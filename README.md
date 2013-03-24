@@ -10,10 +10,10 @@ These snippets are auto generated from backbonejs.org because I got tired of upd
 
 All snippets can be accessed by typing b*, where star is either:
 
-c for collection
-m for model
-r for router
-e for event
-h for history
-u for utility
-s for sync
+- c for collection
+- m for model
+- r for router
+- e for event
+- h for history
+- u for utility
+- s for sync
